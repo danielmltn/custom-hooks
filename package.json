@@ -17,7 +17,6 @@
     "check-types": "tsc",
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm-run-all --parallel check-types check-format lint build",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "test-ci": "CI=true react-scripts test --watch=all",
     "eject": "react-scripts eject"
